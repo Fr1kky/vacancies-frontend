@@ -23,7 +23,7 @@
 
 
 /////////////// Request to API on DOMContentLoad
-const root = document.querySelector('.root');
+const root = document.querySelector('.vacancies-wrapper');
 
 document.addEventListener("DOMContentLoaded", async () => {
     let response = await fetch('http://127.0.0.1:5000/v1/get_rate');
