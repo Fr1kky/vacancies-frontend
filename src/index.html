@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./scss/style.scss">
+    <title>TINE JOBS</title>
+</head>
+
+<body>
+    <header class="header-wrapper">
+        <div class="logo-wrapper">
+            <div class="logo-pic">
+                <img src="" alt="TINE JOBS LOGO">
+            </div>
+            <div class="logo-description">
+                <p class="logo-description-text"></p>
+            </div>
+        </div>
+        <div class="search-wrapper">
+            <form action="#" class="global-ssearch">
+                <input type="text" id="search" class="search" placeholder="Search...">
+                <button type="submit" class="search-btn"><i></i></button>
+            </form>
+        </div>
+    </header>
+    <main>
+        <section id="vacancies-wrapper" class="vacancies-wrapper" name="vacancies-wrapper">
+            <!-- <button id="btnGDF" class="btnGDF" name="btnGDF">Get Data From API</button> -->
+        </section>
+        <aside class="filters-wrapper">
+            <div class="filter-container">
+                <button class="filter-btn">
+                    <p class="filter-caption">Job Type</p>
+                    <!-- <div class="filter-btn-icon">
+                        <svg viewBox="0 0 14 14" width="12px" height="12px" aria-hidden="true">
+                            <g><path d="M5,5l4,4,4-4H5Z"></path></g>
+                        </svg>
+                    </div> -->
+                </button>
+                <div class="filter-dropdownlist-container is-dropdown-closed">
+                    <ul class="filter-dropdownlist">
+                        <li class="filter-dropdownlist-item">
+                            <a class="filter-dropdownlist-link" href="#">Full-Time</a>
+                        </li>
+                        <li class="filter-dropdownlist-item">
+                            <a class="filter-dropdownlist-link" href="#">Part-Time</a>
+                        </li>
+                        <li class="filter-dropdownlist-item">
+                            <a class="filter-dropdownlist-link" href="#">Remote</a>
+                        </li>
+                        <li class="filter-dropdownlist-item">
+                            <a class="filter-dropdownlist-link" href="#">Relocate</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="filter-container">
+                <form action="#" class="filter-location">
+                    <label for="location" class="filter-caption">location
+                    <input type="text" name="location" id="location" class="location">
+                    </label>
+                    <button type="submit" class="search-btn"><i></i></button>
+                </form>
+            </div>
+            <div class="filter-container">
+                <p>Salary</p>
+                <form action="#">
+                    <div class="filter-salary-from-to-wrapper">
+                        <label for="from">from
+                            <input type="text" name="from" id="from">
+                        </label>
+                        <label for="to">to
+                            <input type="text" name="to" id="to">
+                        </label>
+                    </div>
+                    <div class="filter-salary-slider-wrapper">
+                        <input type="range" name="salary-slider" id="salary-slider" min="1" max="100" value="50" class="salary-slider">
+                        <button></button>
+                    </div>
+                </form>
+            </div>
+            <div class="filter-container">
+                <button class="filter-btn">
+                    <p class="filter-caption">Experience</p>
+                    <!-- <div class="filter-btn-icon">
+                        <svg viewBox="0 0 14 14" width="12px" height="12px" aria-hidden="true">
+                            <g><path d="M5,5l4,4,4-4H5Z"></path></g>
+                        </svg>
+                    </div> -->
+                </button>
+                <div class="filter-dropdownlist-container is-dropdown-closed">
+                    <ul class="filter-dropdownlist">
+                        <li class="filter-dropdownlist-item">
+                            <a class="filter-dropdownlist-link" href="#">0-1</a>
+                        </li>
+                        <li class="filter-dropdownlist-item">
+                            <a class="filter-dropdownlist-link" href="#">1-3</a>
+                        </li>
+                        <li class="filter-dropdownlist-item">
+                            <a class="filter-dropdownlist-link" href="#">3-5</a>
+                        </li>
+                        <li class="filter-dropdownlist-item">
+                            <a class="filter-dropdownlist-link" href="#">5-8</a>
+                        </li>
+                        <li class="filter-dropdownlist-item">
+                            <a class="filter-dropdownlist-link" href="#">8+</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+    </main>
+    <footer class="footer-wrapper">
+        <div class="github-repo-wrapper">
+            <p>GitHub Repositories</p>
+            <ul class="github-repo-list">
+                <li class="github-repo-listitem"><a href="#"></a>Front-end</li>
+                <li class="github-repo-listitem"><a href="#"></a>Back-end</li>
+                <li class="github-repo-listitem"><a href="#"></a>Parser</li>
+                <li class="github-repo-listitem"><a href="#"></a>Research</li>
+            </ul>
+        </div>
+        <div class="github-creators-wrapper">
+            <p>GitHub</p>
+            <ul class="github-creators-list">
+                <li class="github-creators-listitem"><a href="#"></a></li>
+                <li class="github-creators-listitem"><a href="#"></a></li>
+                <li class="github-creators-listitem"><a href="#"></a></li>
+            </ul>
+        </div>
+        <div class="linkedIn-wrapper">
+            <p>LinkedIn</p>
+            <ul class="linkedIn-list">
+                <li class="linkedIn-listitem"><a href="#"></a></li>
+                <li class="linkedIn-listitem"><a href="#"></a></li>
+                <li class="linkedIn-listitem"><a href="#"></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

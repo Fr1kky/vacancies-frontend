@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+
+.filter-dropdownlist-container{
+    display: none;
+    position: absolute;
+}
+
+.filter-container:hover .filter-dropdownlist-container{
+    display: block;
+    z-index: 1;
+}

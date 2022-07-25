@@ -1,4 +1,4 @@
-
+import "./scss/main.scss";
 /////////////// Request to API on btn click
 // const btnGDF = document.querySelector('#btnGDF');
 
